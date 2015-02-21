@@ -21,7 +21,10 @@ shinyUI(
                       'East South Central', 'West South Central', 'East North Central', 
                       'West North Central', 'Mountain', 'Pacific')),
                     selected='New England'),
-        hr()
+        hr(),
+        
+        p(strong(em("Documentation:",a("Statistics of states in the US",href="readme.html")))),
+        p(strong(em("Github repository:",a("ShinyApplication",href="https://github.com/audiochick/shinyApplication.git"))))
         
       ),
       
