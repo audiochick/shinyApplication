@@ -1,10 +1,11 @@
-\name{US State Data}
-\alias{US State Data}
+\name{ShinyApplication-package}
+\alias{ShinyApplication-package}
+\alias{ShinyApplication}
+\docType{package}
 \title{
-Introduction
+This is a shiny application that manipulates and displays US State data.
 }
 \description{
-This is a shiny application that manipulates and displays US State data.
 Different options regarding state divisions and data categories can be chosen by the user to update the barchart displayed on the page. The chosen parameters are displayed in a description above the bar chart.
 The app is reactive in that it updates as soon as a selection is made.
 
@@ -20,7 +21,18 @@ runApp()
 
 Alternatively you can simply click on the link and the app will open.
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\details{
+\tabular{ll}{
+Package: \tab ShinyApplication\cr
+Type: \tab Package\cr
+Version: \tab 1.0\cr
+Date: \tab 2015-02-21\cr
+License: \tab GPL-3\cr
+}
+}
+\author{
+AudioChick
+}
+\keyword{ package }
+\examples{
+}

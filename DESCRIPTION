@@ -1,4 +1,5 @@
 Title: Statistics of states in the US
+Description: An application that allows users to view statistics filtered on State Divisions
 Author: AudioChick
 AuthorUrl: http://audiochick.shinyapps.io/ShinyApplication
 License: GPL-3
